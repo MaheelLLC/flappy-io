@@ -1,0 +1,25 @@
+SethBling's Youtube video
+https://www.youtube.com/watch?v=qv6UVOQ0F44&t=341s&ab_channel=SethBling
+
+Genetic algorithms
+https://www.youtube.com/watch?v=uQj5UNhCPuo&pp=ygUbZ2VuZXRpYyBhbGdvcml0aG0gZXhwbGFpbmVk
+
+genetic algorithms 2
+https://www.youtube.com/watch?v=-kpcAa-qKwY&pp=ygUbZ2VuZXRpYyBhbGdvcml0aG0gZXhwbGFpbmVk
+
+neuroevolution
+https://www.youtube.com/watch?v=9Zk_hY_CjiE&ab_channel=argonaut
+
+first neat video
+https://www.youtube.com/watch?v=yVtdp1kF0I4&t=77s&pp=ygUYbmVhdCBhbGdvcml0aG0gZXhwbGFpbmVk
+
+second neat video
+https://www.youtube.com/watch?v=VMQOa4-rVxE&ab_channel=FinnEggers
+
+Then, go through NEAT paper.
+Then, go through NEAT-python.
+
+Follow project:
+https://www.youtube.com/watch?v=MMxFDaIOHsE&list=PLzMcBGfZo4-lwGZWXz5Qgta_YNX3_vLS2&ab_channel=TechWithTim
+
+
