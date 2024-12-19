@@ -1,0 +1,50 @@
+What are neural networks
+input layer
+- eyes of the ai
+
+inputs for flappy
+- bird y
+- top pipe
+- bottom pipe
+
+output layer
+- jump?
+
+To pass input values to output, we use connections and weights.
+weight represents how strong or weak the connection should be.
+
+We feed 3 numbers to the AI (bird position, top pipe's bottomost position, and bottom pipe's top most position)
+let's say bird position = 500
+top pipe relative to bird = 100 pixels above bird
+bottom pipe relative to bird = 75 pixels below bird
+
+weighted sum = (500 * -7) + (100 * -2.3) + (75 * 5) + Bias
+-7, -2.3, and 5 are weights.
+
+Bias: a number that allows us to tweak our neural network in another way.
+- think of it as a y intercept of a graph.
+- this will allow us to move our network up or down a little bit to shift it into the right position.
+
+F = activation function
+
+Output = F(weighted sum)
+F = TanH
+TanH squishes the value in between -1 and 1. Kinda like a normalizing function.
+let's say bias = 600
+
+output = F(-3500 + -230 + 375 + 600)
+tanh(-2755) = -1 = output
+if output > 0.5:
+    jump
+else:
+    don't jump
+
+NEAT
+- start with "we don't know anything"
+- start off with a random population of 100 birds.
+- each bird in the population has a neural network that controls it.
+- we test each of these networks and evaluate their fitness (how well they do)
+    - fitness = how far the bird progressed in the level, every frame it moves forward without dying = +1 fitness
+- we grab the best of this population
+- mutate and breed the best of this population to create a new population.
+- now continue to repeat the process until we are satisfied with the performance of the birds.

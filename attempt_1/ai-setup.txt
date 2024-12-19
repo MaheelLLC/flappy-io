@@ -1,0 +1,13 @@
+inputs: bird y, top pipe, bottom pipe
+outputs: jump?
+activation function (for output layer): tanh
+- NEAT will pick activation function for hidden layers.
+- tanh allows us to squish the output neuron to between -1 and 1
+population size: 100
+- how many birds we will have running each generation.
+fitness function: how far the bird gets into the level (distance), how many frames it survives
+- by far most important piece of the NEAT algorithm
+- we don't really have to worry about population size and activation function as much as this.
+- we need a way to evaluate how good our birds are.
+max generations: 30
+- if we don't have a good bird by 30 generations, cut the program.
